@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ai-uiux-quality-toolkit",
+  "version": "0.1.5",
+  "description": "Evidence-led UI/UX, accessibility, human-AI, research, and design-integrity skills.",
+  "license": "MIT",
+  "author": {
+    "name": "AI UI/UX Toolkit contributors"
+  },
+  "keywords": [
+    "ui-ux",
+    "accessibility",
+    "human-ai",
+    "user-research",
+    "design-systems",
+    "evaluation"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "AI UI/UX Toolkit",
+        "shortDescription": "Evidence-led UI/UX and AI product skills",
+        "longDescription": "Plan, review, and improve user interfaces with platform-aware accessibility, real evidence, human-AI control, evaluation, and design-integrity checks.",
+        "developerName": "AI UI/UX Toolkit contributors",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": [
+          "Review this app's UX using evidence from the current project.",
+          "Plan an accessible UI change for the primary user task.",
+          "Audit this AI interaction or consent flow for user control and harm."
+        ]
+      }
+    }
+  }
+}
